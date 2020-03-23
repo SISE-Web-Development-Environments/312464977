@@ -2,18 +2,17 @@
 <html>
 <head>
 <link rel="stylesheet" type="text/css" href="style.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-<div id="menu">
-<li><a href="#about">About Me</a></li>
-<li><a href="#photos">My Photos</a></li>
-<li><a href="#playlist">My Playlist</a></li>
-<li><a href="#like">Like</a></li>
-<li><a href="#qrcoder">QR code</a></li>
-<li><a href="#spa">Q&A</a></li>
-<li><a href="#contact">Contact Me</a></li>
-</div>
-		  
+  <div class="navbar">
+    <a href="#about"><i class="fa fa-fw fa-address-card"></i> About Me</a>
+    <a href="#photos"><i class="fa fa-fw fa-image"></i> My Photos</a>
+    <a href="#playlist"><i class="fa fa-fw fa-music"></i> My Playlist</a>
+    <a href="#like"><i class="fa fa-fw fa-heart"></i> Like</a>
+    <a href="#qrcoder"><i class="fa fa-fw fa-qrcode"></i> QR code</a>
+    <a href="#contact"><i class="fa fa-fw fa-user"></i> Contact Me</a>
+  </div>		  
 <section id="about" class="section">
 <br/>
 <br/>
@@ -21,68 +20,44 @@
 <br/>
 <br/>
 <br/>
+<h1 style="font-size:320%;color:mediumslateblue">  Me myself & I </h1>
 <br/>
+<p style="font-size:130%;color:mediumslateblue">
+  <b style="font-size:150%;">M</b>y name is <b>Shilat Cohen</b>, I'm 2 years old and i can already build my own website!
 <br/>
+  Actully no .. I'm kidding, my unt is doing it for me.
 <br/>
+  I live in moshav Mishmar Ayalon but originally I'm from Eilat.
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-about me
-<br/>
-<br/>
-<br/>
+  I've got lots of hobbis, such as visit my grandma, playing with my dog and watch TV.
+</p>
 </section>
-
 <section id="photos" class="section">
 <br/>
 <br/>
 <br/>
+<h1 style="font-size:320%;color:mediumslateblue">  My Photos</h1>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-my photos
+<img src="pic1.jpeg" width="28%">
+<img src="pic2.jpeg" width="28%">
+<img src="pic3.jpeg" width="28%">
 <br/>
 <br/>
 <br/>
 </section>
-
 <section id="playlist" class="section">
 <br/>
 <br/>
 <br/>
 <br/>
 <br/>
+<h1 style="font-size:320%;color:mediumslateblue">  My Playlist</h1>
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-my playlist
-<br/>
-<br/>
-<br/>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/j8z7UjET1Is" frameborder="0"
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe><br/>
 </section>
-
 <section id="like" class="section">
 <br/>
 <br/>
@@ -92,20 +67,11 @@ my playlist
 <br/>
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-give me a like
+<h1 style="font-size:320%;color:mediumslateblue">  Give me a Like</h1>
 <br/>
 <br/>
 <br/>
 </section>
-
 <section id="qrcoder" class="section">
 <br/>
 <br/>
@@ -123,7 +89,7 @@ give me a like
 <br/>
 <br/>
 <br/>
-scan my code
+<h1 style="font-size:320%;color:mediumslateblue">  Scan my code</h1>
 <br/>
 <br/>
 <br/>
@@ -146,7 +112,8 @@ scan my code
 <br/>
 <br/>
 <br/>
-ans
+<h1 style="font-size:320%;color:mediumslateblue">  Q&A</h1>
+
 <br/>
 <br/>
 <br/>
@@ -157,19 +124,26 @@ ans
 <br/>
 <br/>
 <br/>
+<h1 style="font-size:320%;color:mediumslateblue">  Contact me</h1>
 <br/>
 <br/>
+<form method="post" autocomplete="on">
+  <p><label>Email:
+    <br/>
+     <input type="email" id="email" placeholder="example@gmail.com">
+     </label></p>
+  <p><label>Subject:
+    <br/>
+      <input type="text" id="subject" placeholder="Subject">
+      </label></p>
+  <p>Message:
+    <br/>
+      <textarea name="comments" rows="4" cols="36"></textarea>
+      </p>
+  <p><input type="submit" value="Submit">
+     <input type="reset" value="Clear"></p>   
+</form>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-contact me
 <br/>
 <br/>
 <br/>
