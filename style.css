@@ -12,15 +12,18 @@ body {
 
 .navbar {
   width: 100%;
-  background-color: #555;
+  height:100%;
+  background-color: #008B8B;
   overflow: auto;
+  float: center;
+
 }
 
 /* Navbar links */
 .navbar a {
   float: center;
   text-align: center;
-  padding: 15px;
+  padding: 30px;
   color: white;
   text-decoration: none;
   font-size: 17px;
