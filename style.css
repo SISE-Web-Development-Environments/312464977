@@ -12,11 +12,11 @@ body {
 
 .navbar {
   width: 100%;
-  height:100%;
   background-color: #008B8B;
   overflow: auto;
   float: center;
   position: fixed;
+
 }
 
 /* Navbar links */
