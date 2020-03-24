@@ -75,11 +75,18 @@ allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
 <br/>
 <br/>
 <h1 style="font-size:320%;color:aqua;text-align:center">  Give me a Like</h1>
-<div id=fb-div><iframe id="likeFacebook" src="http://www.facebook.com/plugins/like.php?href=https://sise-web-development-environments.github.io/assignment1-taircohen94
+<iframe src="http://www.facebook.com/plugins/like.php?href=https://sise-web-development-environments.github.io/assignment1-taircohen94/
+&amp;send=false&amp;layout=standard&amp;width=450&amp;show_faces=true&amp;action=like&amp;colorscheme=light&amp;font&amp;height=80&amp"
+ scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:80px;" allowTransparency="true"></iframe>
+
+
+<!-- <div id=fb-div>
+  <iframe id="likeFacebook" src="http://www.facebook.com/plugins/like.php?href=https://sise-web-development-environments.github.io/assignment1-taircohen94/
 /&amp;send=false&amp;layout=standard&amp;width=450&amp;show_faces=true&amp;
 action=like&amp;colorscheme=light&amp;font&amp;height=80&amp" 
 scrolling="yes" frameborder="0" style="border:white; overflow:hidden; width:450px; height:100px;text-align:center"
- allowTransparency="true" width="450" height="80"frameborder="0"></iframe></div>
+ allowTransparency="true" width="450" height="80"frameborder="0"></iframe>
+</div> -->
 <br/>
 </section>
 <section id="qrcoder" class="section">
@@ -154,19 +161,18 @@ scrolling="yes" frameborder="0" style="border:white; overflow:hidden; width:450p
 <br/>
 <br/>
 <br/>
-</section>
 <script type="text/javascript">
-$(function(){
-  $("#nav a").click(function(e){
-    e.preventDefault();
-    $('html,body').scrollTo(this.hash,this.hash); 
+  $(function(){
+    $("#nav a").click(function(e){
+      e.preventDefault();
+      $('html,body').scrollTo(this.hash,this.hash); 
+    });
   });
-});
-</script>
-<script type="text/javascript">
- $(document).scroll(function() {
-    $('#menu').toggle($(this).scrollTop()>1000)
- });​
- </script>
+  </script>
+  <script type="text/javascript">
+   $(document).scroll(function() {
+      $('#menu').toggle($(this).scrollTop()>1000)
+   });​
+   </script>
 </body>
 </html>
